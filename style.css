@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+
+}
+.container
+{
+    background: whitesmoke;
+    width: 700px;
+    padding: 30px;
+    margin: 50px auto 0;
+    border-top: 5px solid black;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+.container h1
+{
+    font-size: 30px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock
+{
+    padding: 8px 11px;
+
+}
+.name
+{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+.input-name span
+{
+    margin-left: 35px;
+}
+.number
+{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i
+{
+    position: absolute;
+    font-size: 18px;
+    
+}
+.select
+{
+    display: inline-block;
+    width: 97%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+.button 
+{
+    background-color: black;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 97%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button:hover
+{
+    background-color: grey;
+}
+@media (max-width: 480px)
+{
+    .container
+    {
+
+        width: 100%;
+        padding: 5px;
+        
+
+    }
+    .input-name
+    {
+        margin-bottom: -10px;
+    }
+    .name
+    {
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 10px;
+    }
+    .input-name span 
+    {
+        padding: 0;
+        margin: 0;
+        
+    }
+    .number
+    {
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 10px;
+    }
+    .select
+    {
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 10px;
+        
+    }
+    .form-container
+    {
+        width: 100%;
+    }
+    
+   
+    
+}
+
+
+    
+
+
+    
+
+
+
+    
+
+
+    
+    
+
+
+
+
+
