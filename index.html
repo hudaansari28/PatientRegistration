@@ -4,90 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Diagonostic Lab Registration</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="container">
-         <h1>Patient Registration</h1>
-         <div class="form-container">
-             <form>
-                 <div class="input-name">
-                    <i class="fa fa-user lock" ></i>
-                    <input type="text" placeholder="Doctor Name" class="name">
-                    <span>
-                        <i class="fa fa-id-card-o lock"></i> 
-                        <input type="number" placeholder="Registration Number" class="number">
-
-                    </span>
-
-                 </div>
-                 <div class="input-name">
-                    <i class="fa fa-graduation-cap lock" ></i>
-                    <input type="text" placeholder="Degree" class="name">
-                    <span>
-                        <i class="fa fa-mobile lock"></i>
-                        <input type="number" placeholder="Mobile Number" class="number">
-
-                    </span>
-
-                 </div>
-                 <div class="input-name">
-                    <i class="fa fa-map-marker lock"></i>
-
-                    <input type="text" placeholder="Location" class="name">
-                    <span>
-                        <i class="fa fa-globe lock"></i>
-
-                        <input type="text" placeholder="State" class="name">
-
-                    </span>
-                 </div>
-                 <div class="input-name">
-                    <select class="select speciality">
-                        <option>Select Speciality</option>
-                        <option>Dermatologist</option>
-                        <option>Psychiatric</option>
-                    </select>
-                 </div>
-                 <div class="input-name">
-                    <i class="fa fa-commenting lock"></i>
-
-                    <input type="text" placeholder="Describe Yourself" class="name">
-                    <span>
-                        <i class="fa fa-address-book lock"></i>
-
-                        <input type="text" placeholder="Experience" class="name">
-
-                    </span>
-                     <div class="input-name">
-                         <label for="file" class="label">Doctor's Photo :   </label>
-                         <input type="file" class="file" accept="image/*" >
-                         
-                        
-                         
-                     </div>
-                
-                
-                 <div class="input-name">
-                     <button class="button">Register</button>
-                 </div>
-                 
-
-             </form>
-         </div>
+    <!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Sign up as <br>Diagonostic Lab</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details"> Lab name</span>
+            <input type="text" placeholder="Enter your lab name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Registration Number</span>
+            <input type="text" placeholder="Enter your registration number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Location</span>
+            <input type="text" placeholder="Enter your location" required>
+          </div>
+          <div class="input-box">
+            <span class="details">State</span>
+            <input type="text" placeholder="Enter your State" required>
+          </div>
+          <div class="input-box">
+            <span class="details">About lab</span>
+            <input type="text" placeholder="About lab" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Mobile number</span>
+            <input type="text" placeholder="Enter your mobile number
+            " required>
+          </div>
+          <div class="ibput-box"> Photo of lab :
+              <input type="file" accept="image/*" required>
+          </div>
+        </div>
+       
+        
+        <div class="button">
+          <input type="submit" value="Sign Up">
+        </div>
+      </form>
     </div>
-  
-  
+  </div>
 
-
-
-
-
+</body>
+</html>
 
     
-</body>
 
+                       
+
+              
+
+         
+    
+</body>
 </html>
